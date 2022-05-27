@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="47.77" height="52.44" viewBox="0 0 47.77 52.44">
+  <defs>
+    <style>
+      .a {
+        font-size: 15.38px;
+        font-family: Mark-Bold, Mark-Bold;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+      }
+    </style>
+  </defs>
+  <title>flourish-space</title>
+  <g>
+    <g>
+      <g>
+        <path d="M17.49,40.17a27.68,27.68,0,0,0,6.36-14.69c-3.85-.35-8.67,2.29-12.05,7C7.4,38.59,5.37,48.23,9.35,51.09S21.83,49,26.22,42.85c3-4.11,4.07-8.74,3.27-12.21C23.53,39.15,17.49,40.17,17.49,40.17Z"/>
+        <path d="M25.2,25.73s-1.48,8.45-5.51,12.75c0,0,8.74-6.23,10.63-12.33S28.68,7.6,36.1,0C36.1,0,26.64,3.7,25.2,25.73Z"/>
+      </g>
+      <circle cx="14.56" cy="18.85" r="4.56"/>
+      <circle cx="36.89" cy="36.51" r="2.38"/>
+      <circle cx="2.42" cy="39.22" r="2.42"/>
+      <circle cx="36.09" cy="17.25" r="1.99"/>
+      <circle cx="43.56" cy="36.79" r="1.69"/>
+      <circle cx="20.31" cy="11.22" r="2.13"/>
+      <circle cx="4.42" cy="14.7" r="2.54"/>
+      <circle cx="45.09" cy="16.77" r="2.47"/>
+    </g>
+    <g>
+      <text class="a" transform="translate(0.15 30.75)">+</text>
+      <text class="a" transform="translate(30.93 50.5)">+</text>
+      <text class="a" transform="translate(37.32 29.81)">+</text>
+    </g>
+  </g>
+</svg>
