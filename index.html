@@ -15,73 +15,18 @@
         <div class = "sidebar-left">
             <div>
                 <h1 id = "id_site_name"> 
-                    STYL
+                    Sejal Madan
                     <!-- <img src = "/static/styl/logo.png" width="300px"> -->
                 </h1>
             </div>
-            <div class = "nav">
-                <img src="/static/styl/homeicon.png" alt="home icon" class = "icon">
-                <form action="{% url 'home' %}">
-                    <button type="submit">Home</button>
-                </form>
-            </div>
-            <div class = "nav">
-                <img src="/static/styl/follower-icon.png" alt="follower icon" class = "icon">
-                <form action="{% url 'follower' %}">
-                    <button type="submit">Following</button>
-                </form>
-            </div>
-            <div class = "nav">
-                <img src="/static/styl/imageicon.png" alt="create icon" class = "icon">
-                <form action="{% url 'create' %}">
-                    <button type="submit">Create</button>
-                </form>
-            </div>
         </div>
-
-
         
         <div id = "background_box">
-            
             {% block site_content %}
             {% endblock %}
         </div>
 
-        <div class = "sidebar-right">
-            <div>
-                {% if not profile.picture %}
-                    <img src = "/static/styl/default.png" class="propic" alt = "profile pic" id ="id_user_picture"></img>
-                {% else %}
-                    <img src = "{% url 'photo' profile.user.id %}" alt = "profile pic" id ="id_user_picture"></img>
-                {% endif %}
-            </div>
-            <div>
-                <form action = "/styl/profile">
-                    <button id = "id_profile_button">
-                        {{user_name}}
-                    </button>
-                </form>
-            </div>
-            <div>
-                <a href = "{% url 'myvideos' %}" class = "nav_link" id="id_nav_myvideos">My Videos</a>
-            </div>
-            <br>
-            <div>
-                    <form  class="displaybackground" method="POST" action="{% url 'profile' %}" enctype="multipart/form-data">
-                        <a1 class="a1"> Friends: </a1>
-                        {% for u in request.user.profile.friends.all %}
-                        <li >
-                            <a class="a1" href = "{% url 'other' u.id %}"
-                                id = "id_profile_link_{{u}}">
-                                {{u.first_name}} {{u.last_name}}
-                            </a>
-                        </li>
-                        {% endfor %}
-                </form>
-            </div>
-            <br>
-            <a href = "{% url 'logout' %}" class = "nav_link" id="id_nav_logout">Logout</a>
-        </div>
+
     </div>
     
 </body>
