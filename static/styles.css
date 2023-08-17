@@ -11441,7 +11441,7 @@ section.resume-section .resume-section-content {
 
 .box {
     background-color: black;
-    height: 100vh;
+    height: 20vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -11461,7 +11461,7 @@ p {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 0;
+    /* top: 0; */
     bottom: 0;
     left: 0;
     right: 0;
@@ -11471,7 +11471,7 @@ p {
     opacity: 0;
 }
 .content {
-    position: absolute;
+    /* position: absolute; */
     background: white;
     width: 400px;
     padding: 1em 2em;
