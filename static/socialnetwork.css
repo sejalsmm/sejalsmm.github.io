@@ -641,3 +641,9 @@ li {
   text-align: center;
   padding-left: 0.5em;
 }
+
+#sideNav .navbar-nav .nav-item .nav-link {
+  font-weight: 800;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+}
