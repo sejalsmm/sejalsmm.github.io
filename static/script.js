@@ -32,3 +32,16 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+
+const box = document.getElementById('box');
+const popup = document.getElementById('popup');
+const closeBtn = document.getElementById('closeBtn');
+
+box.addEventListener('click', () => {
+  popup.style.display = 'flex';
+});
+
+closeBtn.addEventListener('click', () => {
+  popup.style.display = 'none';
+});
