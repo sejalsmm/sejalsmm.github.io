@@ -647,3 +647,31 @@ li {
   letter-spacing: 0.05rem;
   text-transform: uppercase;
 }
+
+.d-none {
+  display: none !important;
+}
+.d-lg-block {
+  display: block !important;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+#sideNav .navbar-brand .img-profile {
+  max-width: 10rem;
+  max-height: 10rem;
+  border: 0.5rem solid rgba(255, 255, 255, 0.2);
+}
+.rounded-circle {
+  border-radius: 50% !important;
+}
+
+.mx-auto {
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+.mb-2 {
+  margin-bottom: 0.5rem !important;
+}
