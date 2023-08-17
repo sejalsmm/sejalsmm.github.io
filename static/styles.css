@@ -38,11 +38,11 @@
   --bs-success: #198754;
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
-  --bs-danger: #dc3545;
+  --bs-danger: #beadef;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 179, 0, 37;
-  --bs-secondary-rgb: 108, 117, 125;
+  --bs-primary-rgb: 33, 37, 37;
+  --bs-secondary-rgb: 33, 33, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 255, 193, 7;
@@ -61,7 +61,7 @@
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
-  --bs-body-bg: #fff;
+  --bs-body-bg: hsl(0, 0%, 100%);
 }
 
 *,
